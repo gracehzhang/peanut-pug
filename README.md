@@ -1,1 +1,3 @@
 # peanut-pug
+
+This is a project for CalHacks.  Our ultimate objective was to predict suspicious insider trading behavior from faster than normal latency between two market centers in different locations.  We implemented a method for calculating latency between two correlated stocks using NASDAQ API, by cross-correlating the derivatives of the stock prices over time. We can then determine an average latency between major cities by sampling multiple time ranges for related stocks.  This will give us a benchmark on which to assess latency spikes and drops which may indicate insider trading due to previous knowledge.
